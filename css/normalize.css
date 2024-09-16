@@ -1,0 +1,29 @@
+html
+{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before
+{
+    box-sizing: inherit;
+}
+body
+{
+    margin: 0px;
+}
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    text-decoration: none;
+}
+.clearfix::after
+{
+    display: table;
+    content: '';
+    clear: both;
+}
