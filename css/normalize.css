@@ -1,6 +1,8 @@
+@import url('https://v1.fontapi.ir/css/Lalezar');
 html
 {
     box-sizing: border-box;
+    direction: rtl;
 }
 *,
 *::after,
@@ -11,19 +13,34 @@ html
 body
 {
     margin: 0px;
+    font-family: Lalezar, sans-serif;
 }
 ul
 {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 a
 {
     text-decoration: none;
+    color: #fff;
 }
 .clearfix::after
 {
     display: table;
     content: '';
     clear: both;
+}
+.flex
+{
+    display: flex;
+}
+select,input
+{
+    font-family: inherit;
+}
+del
+{
+    color: red;
 }
