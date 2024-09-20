@@ -1,3 +1,4 @@
+@import url('https://v1.fontapi.ir/css/Homa');
 @import url('https://v1.fontapi.ir/css/Lalezar');
 html
 {
@@ -10,10 +11,14 @@ html
 {
     box-sizing: inherit;
 }
-body
+header
 {
     margin: 0px;
     font-family: Lalezar, sans-serif;
+}
+main
+{
+    font-family: Homa, sans-serif;
 }
 ul
 {
@@ -43,4 +48,16 @@ select,input
 del
 {
     color: red;
+}
+main
+{
+    background-color: #fff;
+}
+.hidden
+{
+    display: none;
+}
+del
+{
+    color: rgb(85, 85, 8);
 }
