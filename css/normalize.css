@@ -11,7 +11,7 @@ html
 {
     box-sizing: inherit;
 }
-header
+header,footer
 {
     margin: 0px;
     font-family: Lalezar, sans-serif;

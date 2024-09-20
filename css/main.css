@@ -1011,10 +1011,6 @@ select:focus
 {
     width: 100%;
 }
-.hc_item:hover
-{
-    box-shadow: 0 0 1px #242424;
-}
 .hc_image
 {
     width: 100%;
@@ -1035,4 +1031,133 @@ select:focus
 .hc_item>a:hover
 {
     background-color: #242424;
+}
+/* F O O T E R */
+.footer
+{
+    background-color: #232F3E;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer_info
+{
+    border-bottom: 1px solid #999;
+}
+.footer_infolist
+{
+    justify-content: space-between;
+    margin: 30px;
+}
+.footer_infoitem>h3
+{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.footer_detaillink
+{
+    color: #999;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+.footer_detailitem
+{
+    padding: 5px 0px;
+}
+.footer_detaillist i
+{
+    color: #fff;
+    background-color: #999;
+    padding: 10px;
+    transition: all 0.2s ease;
+    margin: 8px 0px 0px 15px;
+}
+.footer_detaillist i:hover
+{
+    background-color: #F4A137;
+}
+.exept_iconfooter
+{
+    padding:9px 12px !important;
+}
+.footer_detaillink:hover::before
+{
+    content: '>>';
+    color: #F4A137;
+}
+.footer_detaillink:hover
+{
+    color: #fff;
+}
+.no_arrow:hover::before
+{
+    content: '';
+}
+.f_medialink
+{
+    padding: 5px 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%;
+    font-size: 0.8em;
+    vertical-align: middle;
+    border: 1px solid #fff;
+    margin-right: 10px;
+}
+.f_medialink:hover
+{
+    border-color: #F4A137;
+    color: #F4A137;
+}
+.footer_sign
+{
+    padding: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+.f_medialist
+{
+    align-items: center;
+}
+.our_social span,
+.sendemail span
+{
+    color: #fff;
+    align-self: center;
+}
+.sendemail input
+{
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+    width: 350px;
+}
+.sendemail a
+{
+    background-color: #F4A137;
+    padding: 10px 15px;
+    border-radius: 20px 0px 0px 20px;
+}
+.sendemail input:focus
+{
+    outline: none;
+}
+.sendemail a:hover
+{
+    background-color: #999;
+}
+.footer_copy
+{
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+.payway
+{
+    width: 15%;
+}
+.payway img 
+{
+    width: 100%;
 }
